@@ -1,52 +1,50 @@
 nav {
-    background-color: darkblue;
-    padding: 10px;
+    background-color:darkblue;
+    padding:10px;
 }
 
 nav a {
-    color: white;
-    display: block;
-    padding: 20px;
+    color:white;
+    display:block;
+    padding:20px;
 }
 
 h1 {
-    color: darkblue;
+    color:darkblue;
 }
 
 main{
-    max-width: 800px;
+    max-width:800px;
 }
 
 main img {
-    width: 150px;
-    height: auto;
-    border: 1px solid black;
-    padding: 2px;
-    box-shadow: 0 0 30 px gray;
+    width:150px;
+    height:auto;
+    border:1px solid black;
+    padding:2px;
+    box-shadow:0 0 30 px gray;
 }
 
 p {
-    padding: 0;
+    padding:0;
 }
 
 aside{
-    width: 25rem ;
-    margin: 0.5rem;
-    border: 1px solid rgb(100, 100, 100 / 0.5) ;
-    padding: 0.5rem;
-    background-color:rgba(255, 153, 0, 0.703) ;
+    width:25rem;
+    margin:0.5rem;
+    border:1px solid rgb(100, 100, 100 / 0.5);
+    padding:0.5rem;
+    background-color:rgba(255, 153, 0, 0.703);
     color:rgb(114, 27, 27) ;
-
 }
 
 aside img{
-    width: 200px;
-    height:auto ;
+    width:200px;
+    height:auto;
 }
 
 footer{
-    margin-top: 10px;
-    border-top: 1px solid grey;
-    text-align: center;
-    
+    margin-top:10px;
+    border-top:1px solid grey;
+    text-align:center;   
 }
