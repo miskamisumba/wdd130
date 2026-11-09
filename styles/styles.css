@@ -1,3 +1,8 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 :root{
 --primary-color: darkblue;
 --border-standard: 1px solid black;
@@ -23,11 +28,12 @@ main{
 }
 
 main img {
-    width:150px;
+    width:185px;
     height:auto;
     border:var(--border-standard);
     padding:2px;
     box-shadow:0 0 30px gray;
+    float:right;
 }
 
 p {
@@ -36,11 +42,12 @@ p {
 
 aside{
     width:25rem;
-    margin:0.5rem;
-    border:var(--border-standard);
-    padding:0.5rem;
-    background-color:rgba(255, 153, 0, 0.703);
-    color:rgb(114, 27, 27) ;
+    position:relative;
+}
+
+aside h2{
+    position:absolute;
+
 }
 
 aside img{
@@ -52,4 +59,12 @@ footer{
     margin-top:10px;
     border-top:1px solid grey;
     text-align:center;   
+}
+/* class selectors */
+.box{
+    margin:1 rem;
+    border:var(--border-standard);
+    padding:1 rem;
+    background-color:#1f3d28;
+    color:#d7d2c8;
 }
