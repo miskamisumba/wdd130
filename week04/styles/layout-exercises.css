@@ -17,8 +17,12 @@ div {
 }
 
 .one {
+    display:flex;
+    align-items:center;
+    justify-content:center;
     width: 200px;
     height: 200px;
+
 }
 
 .flex {
@@ -34,6 +38,8 @@ div {
 }
 
 .container2 {
+    display:flex;
+    justify-content: space-around;
     /* write declarations here */
 
 }
